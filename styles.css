@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* Navbar styles */
+.navbar {
+    background-color: #003a70;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-text {
+    font-size: 1.2em;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Carousel styles */
+  .carousel {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    display: block;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  /* Card styles */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center; /* Center content */
+  }
+  
+  .card h2 {
+    color: #003a70;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .card a {
+    color: #fff;
+    background-color: #003a70;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #003a70;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Carousel styles */
+.carousel {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 100%; /* Penyesuaian tinggi */
+    display: block;
+    object-fit: contain; /* Menampilkan gambar secara keseluruhan */
+  }
+  /* Carousel caption styles */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang semi-transparan */
+    color: #000000; /* Warna teks putih */
+    padding: 10px; /* Ruang di sekitar teks */
+    position: absolute; /* Posisi absolut di dalam carousel-item */
+    top: 20px; /* Di bagian atas carousel-item */
+    left: 50%; /* Di tengah carousel-item */
+    transform: translateX(-50%); /* Pusatkan horizontal */
+    width: 90%; /* Lebar sesuai dengan carousel-item */
+    box-sizing: border-box; /* Penyesuaian ukuran kotak */
+    font-size: 1.5em; /* Ukuran teks */
+    text-align: center; /* Teks berada di tengah */
+    border-radius: 10px; /* Bentuk sudut */
+    background-color: rgba(0, 0, 0, 0); /* Hapus warna latar belakang */
+  }
+  /* Warna default untuk tombol geser adalah putih */
+.carousel-control-prev,
+.carousel-control-next {
+  color: #000000; /* Mengubah warna tombol geser menjadi hitam */
+}
+
+/* Styling for model name */
+.model {
+    font-family: 'Arial', sans-serif; /* Ganti font menjadi Arial atau font lainnya */
+    font-size: 24px; /* Ukuran font */
+    font-weight: bold; /* Ketebalan font */
+    margin-bottom: 5px; /* Jarak ke bawah */
+  }
+  
+  /* Styling for price */
+  .price {
+    font-family: 'Arial', sans-serif; /* Ganti font menjadi Arial atau font lainnya */
+    font-size: 20px; /* Ukuran font */
+  }
+  
+
+  
+
+  
+  
